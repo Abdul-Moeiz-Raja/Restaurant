@@ -63,7 +63,7 @@ function dark() {
  var menu = Object.create(menu_proto);
  
  //var menu_objects = {};
- fetch("menu.json")
+ fetch("data/menu.json")
  .then(function (response) {
    return response.json();
  })
